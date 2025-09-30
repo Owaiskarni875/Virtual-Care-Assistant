@@ -1,5 +1,7 @@
 from setuptools import find_packages, setup
 
+#setup tools for Virtual Care Assistant
+
 setup(
     name = 'Virtual-Care-Assistant',
     version= '0.0.0',
