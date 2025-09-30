@@ -29,7 +29,7 @@ embeddings = download_hugging_face_embeddings()
 
 index_name = "medicalbot"
 
-# Embed each chunk und upsert the embeddings into your Pinecone index.
+# Embed each chunk and upsert the embeddings into your Pinecone index.
 docsearch = Pinecone.from_existing_index(
     index_name=index_name,
     embedding=embeddings
