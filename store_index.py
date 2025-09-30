@@ -31,7 +31,7 @@ pc.create_index(
     ) 
 ) 
 
-# Embed each chunk and upsert the embeddings into your Pinecone index.
+# Embed each chunk und upsert the embeddings into your Pinecone index.
 docsearch = Pinecone.from_documents(
     documents=text_chunks,
     index_name=index_name,
